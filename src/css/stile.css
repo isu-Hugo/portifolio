@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0%;
+    width: 100dvw;
+    height: 100dvh;
+    background-image: linear-gradient(90deg, #f8c58b , #ffdec0);
+}
+
+.cartao{
+    display: flex;
+    flex-direction: row;
+
+    width: 70dvw;
+    height: 70dvh;
+    background-color: #f5ab80;
+    border: 2px, solid, #da9268;
+    border-radius: 18px;
+}
+
+
+.cartao .left .links ul{
+    margin: 0px;
+    padding: 15%;
+}
+
+.cartao .left .links ul li{
+    list-style: none;
+    margin-top: 5px;
+}
+
+.cartao .left .links li a{
+    font-size: 18px;
+    padding: 8px;
+    text-decoration: none;
+    color: #f7efe6;
+}
+
+.cartao .left .links li a:hover{
+    color: white;
+    font-size: 19px;
+    margin-left: 5px;
+}
+
+
+.cartao .left .topo img{
+    margin: 8px;
+    border-radius: 40px;
+    width: 10vw;
+}
+.cartao .left .topo img:hover{
+    border-radius: 35px;
+}
+
+
+
+.cartao .left .topo p, .cartao .left .topo h1{
+    margin: 0px 0px 0px 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.cartao .text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    flex-grow: 0.8;
+
+}
+.cartao .text p{
+    margin: 0%;
+}
